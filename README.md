@@ -19,7 +19,12 @@ npx hardhat help
 npx hardhat run scripts/deploy.js --network rinkeby
 ```
 
-#Verify Smart contract
+# Test Smart contract
+```
+mocha test/test.js
+```
+
+# Verify Smart contract
 ```
 npx hardhat run scripts/verify.js --network rinkeby
 ```

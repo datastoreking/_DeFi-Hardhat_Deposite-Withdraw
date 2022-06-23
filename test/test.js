@@ -9,7 +9,7 @@ describe("Deposite Test", function () {
     //const decimals = 18;
     //const input = "0.01"; // Note: this is a string, e.g. user input
     //const amount = ethers.utils.parseUnits(input, decimals)
-    await depwith.deposite({value: "10000000000000000"})
-    expect(await depwith.getBalance()).to.equal(10000000000000000);
+    await depwith.deposite({value: "100"})
+    expect(await depwith.getBalance()).to.equal(100);
   });
 });
